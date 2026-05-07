@@ -1,0 +1,2 @@
+# BloggingPlatform
+Bloggin platform app
