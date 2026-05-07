@@ -8,7 +8,7 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { login } from "../api/login";
+import login from "../api/login";
 
 function Login() {
     const navigate = useNavigate();
@@ -44,7 +44,7 @@ function Login() {
                 </Typography>
                 <Box component="form" sx={{ mt: 2 }}>
                     <TextField
-                        label="Username"
+                        label="Email"
                         variant="outlined"
                         fullWidth
                         margin="normal"
